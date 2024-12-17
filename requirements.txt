@@ -6,4 +6,4 @@ matplotlib
 seaborn
 scipy
 imblearn
-PyYAML
+itertools
