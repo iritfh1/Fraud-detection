@@ -24,7 +24,7 @@ Methodology
   - Use techniques like label encoding and normalization.
 
 4. Model Training
-  - XGBoost proved to be the best classifier for predicting fraud, providing the highest ROC-AUC
+  - Compared RandomForest and XGBoost. RandomForest proved to be the best classifier for predicting fraud, providing the highest ROC-AUC
   - Handle imbalanced datasets using Upscaling/Downscaling.
 
 5. Model Evaluation
