@@ -40,5 +40,5 @@ Methodology
   - Generate ROC-AUC curve and feature importance for visualization.
 
 5. Results
-  - ROC-AUC Score: 0.8275  
+  - ROC-AUC Score: `0.8275`
   - Demonstrates good performance, especially considering the data's imbalance.
