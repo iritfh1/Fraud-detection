@@ -1,6 +1,14 @@
 This fraud prediction solution identifies potentially fraudulent transactions using machine learning models. 
 The solution utilizes historical transaction data to build a binary classification model capable of distinguishing between fraudulent and non-fraudulent transactions. 
 
+Project Structure:
+checkout_home_challenge/
+├── src/
+│   ├── classes.py               		     # Classes for preprocessing, data splitting, Class balancing, Model creation, Parameter tuning Automation, Hyperparameter Tuning, Automation, Utils, Visualizations and explorations
+│   ├── exploratory_analysis.ipynb     # Execute exploratory data analysis and automated machine learning workflows to build the best model
+README.md                                        # This file
+requirements.txt                                  # Dependencies file. To install run: pip install -r requirements.txt
+
 Key Features:
   - Structured and iterative approach to addressing imbalanced classification problems.
   - Emphasize on preprocessing flexibility, robust modeling, and comprehensive performance evaluation tailored to data characteristics.
