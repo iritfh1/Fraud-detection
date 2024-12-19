@@ -4,7 +4,7 @@ The solution utilizes historical transaction data to build a binary classificati
 Key Features:
   - Structured and iterative approach to addressing imbalanced classification problems.
   - Emphasize on preprocessing flexibility, robust modeling, and comprehensive performance evaluation tailored to data characteristics.
-  - Optimize and automate feature extraction, preprocessing, class balancer, and model hyperparameters tuning using a grid search with `roc_auc` as the scoring metric. 
+  - Optimize and automate feature extraction, preprocessing, class balancer, and parameter/hyperparameters tuning and model selection, using a grid search with `roc_auc` as the scoring metric. 
   - Modular code structure for easy integration and updates.
   - Insights through visualizations.
 
@@ -28,5 +28,9 @@ Methodology
   - Handle imbalanced datasets using Upscaling/Downscaling.
 
 5. Model Evaluation
-  - Evaluate using ROC-AUC as the scoring metric, due to the imbalanced nature of the dataset.
+  - Evaluate using ROC-AUC as the scoring metric, due to the imbalanced nature of the dataset. Scoring metric is a parameter.
   - Generate ROC-AUC curve and feature importance for visualization.
+
+Results
+ROC-AUC Score: 0.8275  
+Demonstrates good performance, especially considering the data's imbalance.
