@@ -31,6 +31,6 @@ Methodology
   - Evaluate using ROC-AUC as the scoring metric, due to the imbalanced nature of the dataset. Scoring metric is a parameter.
   - Generate ROC-AUC curve and feature importance for visualization.
 
-Results
-ROC-AUC Score: 0.8275  
-Demonstrates good performance, especially considering the data's imbalance.
+5. Results
+  - ROC-AUC Score: 0.8275  
+  - Demonstrates good performance, especially considering the data's imbalance.
